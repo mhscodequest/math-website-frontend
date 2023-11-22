@@ -1,3 +1,38 @@
 .input {
   margin-bottom: 0;
+  width: 100%;
+  display: flex;
+}
+
+.input input {
+  background-color: transparent;
+  padding: 15px;
+  font-size: 20px;
+  border-style: solid;
+  border-radius: 15px;
+  border-color: #4f5e92;
+  width: 100%;
+  transition: 400ms;
+  color: #707fb6;
+}
+
+.input input:focus {
+  border-color: #707fb6;
+}
+
+.input input::placeholder {
+  color: #4f5e927c;
+}
+
+.input button {
+  font-size: 20px;
+  padding: 15px;
+  border-radius: 15px;
+  background-color: #b6bf4f;
+  margin-left: 40px;
+  transition: 400ms;
+}
+
+.input button:hover {
+  transform: translateY(-5px);
 }

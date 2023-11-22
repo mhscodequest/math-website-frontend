@@ -7,8 +7,14 @@
 }
 
 .header_logo {
+  margin-left: 20px;
   color: #b6bf4f;
   font-size: 50px;
+}
+
+.header_logo-container {
+  display: flex;
+  align-items: center;
 }
 
 .header_btn {

@@ -2,8 +2,11 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  background-color: #060e2b;
   font-family: "Inter", sans-serif;
+}
+
+body {
+  background-color: #060e2b;
 }
 
 .App {
@@ -15,4 +18,9 @@ button {
   outline: none;
   border: none;
   cursor: pointer;
+}
+
+input {
+  font-family: inherit;
+  outline: none;
 }

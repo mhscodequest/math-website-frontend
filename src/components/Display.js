@@ -1,9 +1,11 @@
 import "./Display.css";
 
-const Display = () => {
+const Display = ({ messages }) => {
   return (
     <div className="display">
-      <h1>display</h1>
+      {messages.map((item) => (
+        <div className="display_content">{item}</div>
+      ))}
     </div>
   );
 };
