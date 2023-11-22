@@ -1,0 +1,11 @@
+.body {
+  background-color: #151f41;
+  border-radius: 25px;
+  height: 80vh;
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}

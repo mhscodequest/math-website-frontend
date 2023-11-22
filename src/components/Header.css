@@ -1,0 +1,24 @@
+.header {
+  text-align: left;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px;
+  display: flex;
+}
+
+.header_logo {
+  color: #b6bf4f;
+  font-size: 50px;
+}
+
+.header_btn {
+  background-color: #4f5e92;
+  padding: 10px 25px;
+  font-size: 40px;
+  border-radius: 60px;
+  transition: 400ms;
+}
+
+.header_btn:hover {
+  transform: translateY(-5px);
+}
