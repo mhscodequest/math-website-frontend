@@ -4,14 +4,17 @@ import Input from "./Input";
 import { useState } from "react";
 
 const Body = () => {
-  const [messages, setMessages] = useState(["display", "goofball"]);
+  const [messages, setMessages] = useState([
+    { text: "goofball", right: true },
+    { text: "display", right: false },
+  ]);
 
-  const addMessageHandler = (newMsg) => {
-    setMessages((state) => state.push(newMsg));
+  const addMessageHandler = (newMsg, isRight) => {
+    setMessages((state) => [...state, { text: newMsg, right: isRight }]);
   };
 
   return (
-    <div className="body">
+    <div className='body'>
       <Display messages={messages} />
       <Input addMessage={addMessageHandler} />
     </div>

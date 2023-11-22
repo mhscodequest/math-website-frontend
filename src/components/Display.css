@@ -3,6 +3,7 @@
   display: flex;
   flex-direction: column;
   justify-content: end;
+  overflow-y: hidden;
 }
 
 .display_content {
@@ -13,4 +14,13 @@
   border-radius: 20px;
   margin-bottom: 40px;
   display: flex;
+}
+
+.display_wrapper {
+  display: flex;
+  justify-content: start;
+}
+
+.right {
+  justify-content: end;
 }
