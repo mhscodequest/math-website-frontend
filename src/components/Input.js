@@ -12,6 +12,7 @@ const Input = ({ addMessage }) => {
   };
 
   const clickHandler = async () => {
+    if (!value) return;
     const data = await getData();
     addMessage(value, true);
     addMessage(data, false);
