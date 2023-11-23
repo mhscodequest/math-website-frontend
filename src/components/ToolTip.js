@@ -1,7 +1,7 @@
 const ToolTip = (props) => (
   <svg
-    width="515"
-    height="341"
+    width="302.06"
+    height="200"
     viewBox="0 0 515 341"
     fill="none"
     xmlns="http://www.w3.org/2000/svg"

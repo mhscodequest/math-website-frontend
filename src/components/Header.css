@@ -32,8 +32,8 @@
 .tool-tip {
   opacity: 0;
   position: absolute;
-  right: 20px;
-  top: 100px;
+  right: 40px;
+  top: 110px;
   transition: 400ms;
 }
 
