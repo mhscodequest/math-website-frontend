@@ -28,3 +28,15 @@
 .header_btn:hover {
   transform: translateY(-5px);
 }
+
+.tool-tip {
+  opacity: 0;
+  position: absolute;
+  right: 20px;
+  top: 100px;
+  transition: 400ms;
+}
+
+.show {
+  opacity: 100;
+}
