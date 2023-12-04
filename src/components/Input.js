@@ -15,7 +15,8 @@ const Input = ({ addMessage }) => {
     if (!value) return;
     const data = await getData();
     addMessage(value, true);
-    addMessage(data, false);
+    addMessage("`int_a^b f(x)dx=" + data + "`", false);
+    setValue("");
   };
 
   return (

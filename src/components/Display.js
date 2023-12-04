@@ -1,4 +1,5 @@
 import "./Display.css";
+import { MathJax } from "better-react-mathjax";
 
 const Display = ({ messages }) => {
   return (
@@ -6,7 +7,7 @@ const Display = ({ messages }) => {
       {messages.map(({ text, right }) => (
         <div className={`display_wrapper ${right ? "right" : ""}`}>
           <div className='display_content'>
-            {text}
+            <MathJax>{text}</MathJax>
           </div>
         </div>
       ))}
